@@ -56,4 +56,7 @@ public class Veiculo {
     public double mediaKmPorVIagem(){
         return somaQuilometragemViagens/totalViagens;
     }
+
+
+
 }

@@ -1,7 +1,5 @@
 package br.com.pessoal.RotaFacil.modelos;
 
-import org.w3c.dom.ls.LSOutput;
-import javax.print.DocFlavor;
 
 public class Veiculo {
     private String placa;
@@ -10,7 +8,6 @@ public class Veiculo {
     private boolean ativo;
     private double somaQuilometragemViagens;
     private int totalViagens;
-
 
     public String getPlaca() {
         return placa;
@@ -44,19 +41,24 @@ public class Veiculo {
         this.ativo = ativo;
     }
 
-    public String exibeFichaTecnica(){
-        return "Placa: " + this.placa + " Modelo: " + this.modelo + " AnoFabricacao: " + this.anoFabricacao;
+    public double getSomaQuilometragemViagens() {
+        return somaQuilometragemViagens;
+    }
+
+    public int getTotalViagens() {
+        return totalViagens;
+    }
+
+    public void exibeFichaTecnica(){
+        System.out.println("Placa: " + this.placa + "\nModelo:  " + this.modelo + "\nAno Fabricacao: " + this.anoFabricacao);
     }
 
     public void registraViagem(double km){
-        somaQuilometragemViagens += km;
         totalViagens = totalViagens + 1;
+        System.out.println(somaQuilometragemViagens= km+ somaQuilometragemViagens);
     }
 
-    public double mediaKmPorVIagem(){
+    public double mediaKmporViagem(){
         return somaQuilometragemViagens/totalViagens;
     }
-
-
-
 }

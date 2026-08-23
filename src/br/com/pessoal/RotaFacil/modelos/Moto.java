@@ -1,14 +1,13 @@
 package br.com.pessoal.RotaFacil.modelos;
 
 public class Moto extends Veiculo{
-    private int Cilindradas;
-
+    private int cilindradas;
 
     public int getCilindradas() {
-        return Cilindradas;
+        return cilindradas;
     }
 
     public void setCilindradas(int cilindradas) {
-        Cilindradas = cilindradas;
+        this.cilindradas = cilindradas;
     }
 }

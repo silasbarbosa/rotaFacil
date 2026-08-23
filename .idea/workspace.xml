@@ -7,22 +7,101 @@
     <list default="true" id="0a2e4154-db5f-49fc-a89c-6274cce3e2e0" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/RotaFacil.iml" beforeDir="false" afterPath="$PROJECT_DIR$/RotaFacil.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/RotaFacil/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/RotaFacil/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/pessoal/RotaFacil/modelos/Caminhao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/pessoal/RotaFacil/modelos/Caminhao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/pessoal/RotaFacil/modelos/Moto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/pessoal/RotaFacil/modelos/Moto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/pessoal/RotaFacil/modelos/Veiculo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/pessoal/RotaFacil/modelos/Veiculo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="EmbeddingIndexingInfo">
+    <option name="cachedIndexableFilesCount" value="13" />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="SimpleSourceFile" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/TesteVeiculo.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="JsbtTreeLayoutManager">
+    <layout place="tools.popupGrunt">
+      <scroll-view-position x="0" y="0" />
+    </layout>
+  </component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0" />
+      <entry key="S2" value="1.0" />
+      <entry key="S5" value="1.0" />
+      <entry key="S10" value="1.0" />
+      <entry key="S30" value="1.0000000014297108" />
+      <entry key="S60" value="1.0002749775889785" />
+      <entry key="M2" value="1.1623738453495203" />
+      <entry key="M5" value="11.270904484168087" />
+      <entry key="M10" value="48.2453559725363" />
+      <entry key="M15" value="82.9798382385443" />
+      <entry key="M30" value="148.61649593667724" />
+      <entry key="H1" value="202.77205277039542" />
+      <entry key="H2" value="238.20727225272148" />
+      <entry key="H4" value="258.58176148690745" />
+      <entry key="D1" value="277.11198378858387" />
+      <entry key="W1" value="280.4407209468268" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="0.0" />
+      <entry key="S2" value="3.650703979438156E-248" />
+      <entry key="S5" value="1.0674575354483946E-99" />
+      <entry key="S10" value="3.596901108382404E-50" />
+      <entry key="S30" value="5.761075702273226E-17" />
+      <entry key="S60" value="1.4532669627470669E-8" />
+      <entry key="M2" value="2.551464296690785E-4" />
+      <entry key="M5" value="0.10334819781990597" />
+      <entry key="M10" value="0.9122469647413469" />
+      <entry key="M15" value="2.0009594203579857" />
+      <entry key="M30" value="4.579780938789301" />
+      <entry key="H1" value="7.05346119004345" />
+      <entry key="H2" value="8.794518053715047" />
+      <entry key="H4" value="9.831745325958662" />
+      <entry key="D1" value="10.795476280670718" />
+      <entry key="W1" value="10.970532024375554" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="7.4723838622049506E-6" />
+      <entry key="MS500" value="0.09433912303253496" />
+      <entry key="S2" value="0.5542082145831225" />
+      <entry key="S5" value="0.7897128112331914" />
+      <entry key="S10" value="0.8886578707428362" />
+      <entry key="S30" value="0.9614164112949473" />
+      <entry key="S60" value="0.9807933944150478" />
+      <entry key="M2" value="1.1528110714867092" />
+      <entry key="M5" value="11.365858097022134" />
+      <entry key="M10" value="49.134616642003095" />
+      <entry key="M15" value="84.94865512263581" />
+      <entry key="M30" value="153.16082305524816" />
+      <entry key="H1" value="209.79876513634176" />
+      <entry key="H2" value="246.98530105130854" />
+      <entry key="H4" value="268.40434413132203" />
+      <entry key="D1" value="287.9057917588628" />
+      <entry key="W1" value="291.4110109906737" />
+    </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8,
@@ -33,41 +112,41 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Main.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "main",
-    "junie.onboarding.icon.badge.shown": "true",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.jshint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.jshint": "",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler",
-    "to.speed.mode.migration.done": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TesteVeiculo.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.jshint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.jshint&quot;: &quot;&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;dev.matasar.antigravity.settings&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\x151499036\Documents\rotaFacil" />
-    </key>
-  </component>
+}</component>
   <component name="RunManager">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Main1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="UNNAMED_CLASS_CONFIGURATION" value="true" />
-      <option name="MAIN_CLASS_NAME" value="Main" />
+      <option name="MAIN_CLASS_NAME" value="Main1" />
       <module name="rotaFacil" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -75,7 +154,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Main1" />
       </list>
     </recent_temporary>
   </component>
@@ -99,5 +178,9 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

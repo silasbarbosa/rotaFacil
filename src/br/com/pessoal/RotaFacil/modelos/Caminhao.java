@@ -2,9 +2,10 @@ package br.com.pessoal.RotaFacil.modelos;
 
 import org.w3c.dom.ls.LSOutput;
 
-public class Caminhao extends Veiculo {
+public class Caminhao extends Veiculo  implements PrioridadeEntrega{
     private int numeroDeEixos;
     private double cargaPorEixoToneladas;
+    private int prioridade;
 
     public int getNumeroDeEixos() {
         return numeroDeEixos;
@@ -22,9 +23,19 @@ public class Caminhao extends Veiculo {
         this.cargaPorEixoToneladas = cargaPorEixoToneladas;
     }
 
+    public int getNivePrioridade() {
+        if(this.getCapacidadeCarga()>=20){
+            prioridade = 4;
+        }
+        else{
+            prioridade = 2;
+        }
+        return prioridade;
+    }
+
     @Override
     public double getCapacidadeCarga(){
-        return this.cargaPorEixoToneladas* this.numeroDeEixos;
+        return this.getCargaPorEixoToneladas() * this.numeroDeEixos;
     }
 
     public void exibeFichaTecnica(){

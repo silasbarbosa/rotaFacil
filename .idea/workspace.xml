@@ -5,13 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0a2e4154-db5f-49fc-a89c-6274cce3e2e0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/TesteCaminhao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TesteMoto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/pessoal/RotaFacil/modelos/PrioridadeEntrega.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TesteCarro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TesteCaminhao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TesteCaminhao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/br/com/pessoal/RotaFacil/modelos/Caminhao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/pessoal/RotaFacil/modelos/Caminhao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/pessoal/RotaFacil/modelos/Moto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/pessoal/RotaFacil/modelos/Moto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/pessoal/RotaFacil/modelos/Veiculo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/pessoal/RotaFacil/modelos/Veiculo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +23,7 @@
       <list>
         <option value="Class" />
         <option value="SimpleSourceFile" />
+        <option value="Interface" />
       </list>
     </option>
   </component>

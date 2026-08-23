@@ -14,4 +14,6 @@ public static void main(String[] args) {
 
     caminhao1.exibeFichaTecnica();
     System.out.println("Capacidade total de Carga deste caminhão é de: " + caminhao1.getCapacidadeCarga() + " Toneladas");
+
+    System.out.println("A prioridade desse caminhão é: " + caminhao1.getNivePrioridade());
 }

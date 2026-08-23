@@ -10,4 +10,11 @@ public class Moto extends Veiculo{
     public void setCilindradas(int cilindradas) {
         this.cilindradas = cilindradas;
     }
-}
+
+
+    @Override
+    public void exibeFichaTecnica(){
+        System.out.println("Placa: " + this.getPlaca()+ "\nModelo:  " + this.getModelo() + "\nAno Fabricacao: " + this.getAnoFabricacao()+ "\nCilindradas: " + this.getCilindradas());
+    }
+    }
+

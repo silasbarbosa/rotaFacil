@@ -8,6 +8,7 @@ public class Veiculo {
     private boolean ativo;
     private double somaQuilometragemViagens;
     private int totalViagens;
+    private double capacidadeCargaToneladas;
 
     public String getPlaca() {
         return placa;
@@ -41,6 +42,14 @@ public class Veiculo {
         this.ativo = ativo;
     }
 
+    public double getCapacidadeCarga() {
+        return capacidadeCargaToneladas;
+    }
+
+    public void setCapacidadeCarga(double capacidadeCargaToneladas) {
+        this.capacidadeCargaToneladas = capacidadeCargaToneladas;
+    }
+
     public double getSomaQuilometragemViagens() {
         return somaQuilometragemViagens;
     }
@@ -55,10 +64,10 @@ public class Veiculo {
 
     public void registraViagem(double km){
         totalViagens = totalViagens + 1;
-        System.out.println(somaQuilometragemViagens= km+ somaQuilometragemViagens);
+        somaQuilometragemViagens= km+ somaQuilometragemViagens;
     }
 
     public double mediaKmporViagem(){
-        return somaQuilometragemViagens/totalViagens;
+        return (somaQuilometragemViagens/totalViagens);
     }
 }

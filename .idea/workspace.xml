@@ -5,10 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0a2e4154-db5f-49fc-a89c-6274cce3e2e0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/br/com/pessoal/RotaFacil/modelos/PrioridadeEntrega.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TesteEncomenda.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/pessoal/RotaFacil/modelos/Encomenda.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/TesteCaminhao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TesteCaminhao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/br/com/pessoal/RotaFacil/modelos/Caminhao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/pessoal/RotaFacil/modelos/Caminhao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/pessoal/RotaFacil/modelos/PrioridadeEntrega.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/pessoal/RotaFacil/modelos/PrioridadeEntrega.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,9 +23,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
         <option value="SimpleSourceFile" />
-        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -118,6 +120,7 @@
     "Application.Main.executor": "Run",
     "Application.Main1.executor": "Run",
     "Application.TesteCaminhao.executor": "Run",
+    "Application.TesteEncomenda.executor": "Run",
     "Application.TesteMoto.executor": "Run",
     "Application.TesteVeiculo.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
@@ -147,14 +150,6 @@
   }
 }]]></component>
   <component name="RunManager">
-    <configuration name="Main1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="UNNAMED_CLASS_CONFIGURATION" value="true" />
-      <option name="MAIN_CLASS_NAME" value="Main1" />
-      <module name="rotaFacil" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="TesteMoto" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="UNNAMED_CLASS_CONFIGURATION" value="true" />
       <option name="MAIN_CLASS_NAME" value="TesteMoto" />
@@ -177,7 +172,6 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.TesteMoto" />
-        <item itemvalue="Application.Main1" />
       </list>
     </recent_temporary>
   </component>

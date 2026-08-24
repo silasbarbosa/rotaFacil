@@ -23,7 +23,7 @@ public class Caminhao extends Veiculo  implements PrioridadeEntrega{
         this.cargaPorEixoToneladas = cargaPorEixoToneladas;
     }
 
-    public int getNivePrioridade() {
+    public int getNivelPrioridade() {
         if(this.getCapacidadeCarga()>=20){
             prioridade = 4;
         }

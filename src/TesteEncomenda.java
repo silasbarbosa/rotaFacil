@@ -1,3 +1,4 @@
+import br.com.pessoal.RotaFacil.calculos.FiltroDeManutecao;
 import br.com.pessoal.RotaFacil.modelos.Caminhao;
 import br.com.pessoal.RotaFacil.modelos.Encomenda;
 
@@ -18,4 +19,10 @@ public static void main(String[] args) {
 
     System.out.println(encomenda1.getNivelPrioridade());
     System.out.println(encomenda1.getVeiculo().getPlaca());
+
+    FiltroDeManutecao  filtro1 = new FiltroDeManutecao();
+
+    filtro1.filtraPrioridade(caminhao2);
+    filtro1.filtraPrioridade(encomenda1);
+
 }

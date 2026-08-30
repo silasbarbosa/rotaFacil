@@ -5,10 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0a2e4154-db5f-49fc-a89c-6274cce3e2e0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/TesteCalculadora.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/pessoal/RotaFacil/calculos/CalculadoraDeCapacidade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TesteMotorista.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/pessoal/RotaFacil/calculos/FiltroDeManutecao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/pessoal/RotaFacil/modelos/Motorista.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/RotaFacil/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TesteCaminhao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TesteCaminhao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TesteEncomenda.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TesteEncomenda.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,7 +18,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="18" />
+    <option name="cachedIndexableFilesCount" value="20" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -45,61 +47,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="5.375521580057345E-50" />
-      <entry key="MS500" value="1.3998584459747385E-10" />
-      <entry key="S2" value="0.0034397036756307156" />
-      <entry key="S5" value="0.10342193428503618" />
-      <entry key="S10" value="0.32301436730386973" />
-      <entry key="S30" value="0.91546178285669" />
-      <entry key="S60" value="1.8240672434700316" />
-      <entry key="M2" value="3.37258564513356" />
-      <entry key="M5" value="8.273345177057536" />
-      <entry key="M10" value="16.78245343582011" />
-      <entry key="M15" value="25.981430685537884" />
-      <entry key="M30" value="63.010436741599996" />
-      <entry key="H1" value="134.69268050382587" />
-      <entry key="H2" value="213.8336422668218" />
-      <entry key="H4" value="274.14479995106507" />
-      <entry key="D1" value="339.81331627636195" />
-      <entry key="W1" value="352.78426938247264" />
+      <entry key="MS100" value="5.483379153205348E-13" />
+      <entry key="MS500" value="0.003530463806469655" />
+      <entry key="S2" value="0.27224190658969344" />
+      <entry key="S5" value="0.9860347668115622" />
+      <entry key="S10" value="1.9448612577323139" />
+      <entry key="S30" value="3.5245154002640082" />
+      <entry key="S60" value="4.2064468540467495" />
+      <entry key="M2" value="5.21263725447173" />
+      <entry key="M5" value="9.555180503885314" />
+      <entry key="M10" value="15.077845855532866" />
+      <entry key="M15" value="18.56271074964689" />
+      <entry key="M30" value="23.784884168037955" />
+      <entry key="H1" value="27.474515279466324" />
+      <entry key="H2" value="34.56781092357875" />
+      <entry key="H4" value="77.09335341277736" />
+      <entry key="D1" value="338.9760297664591" />
+      <entry key="W1" value="458.0549273552754" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="1.000000000014552" />
-      <entry key="MS500" value="1.0068015493648799" />
-      <entry key="S2" value="1.313461860815061" />
-      <entry key="S5" value="1.9121237459271498" />
-      <entry key="S10" value="2.591194219109116" />
-      <entry key="S30" value="4.079673895917861" />
-      <entry key="S60" value="5.29514893479093" />
-      <entry key="M2" value="6.601877008997457" />
-      <entry key="M5" value="8.40228451459646" />
-      <entry key="M10" value="9.882235714667889" />
-      <entry key="M15" value="10.857500764086074" />
-      <entry key="M30" value="13.276122353496437" />
-      <entry key="H1" value="17.02389837348239" />
-      <entry key="H2" value="20.98137084685304" />
-      <entry key="H4" value="23.978140990761226" />
-      <entry key="D1" value="27.243630351811785" />
-      <entry key="W1" value="27.889612329570625" />
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0000000003245213" />
+      <entry key="S2" value="1.0055417947426257" />
+      <entry key="S5" value="1.1826196022612157" />
+      <entry key="S10" value="1.6002544175493254" />
+      <entry key="S30" value="2.3372507263651094" />
+      <entry key="S60" value="2.6699451520437307" />
+      <entry key="M2" value="3.318652678016468" />
+      <entry key="M5" value="5.7835040530318835" />
+      <entry key="M10" value="8.496754972055715" />
+      <entry key="M15" value="10.102604290560132" />
+      <entry key="M30" value="12.432168880043431" />
+      <entry key="H1" value="14.024888869908144" />
+      <entry key="H2" value="15.57133463346849" />
+      <entry key="H4" value="20.652903330892514" />
+      <entry key="D1" value="47.22584998172257" />
+      <entry key="W1" value="58.713197383578915" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="1.1741108068658258E-6" />
-      <entry key="MS500" value="0.0657446000334163" />
-      <entry key="S2" value="0.6817975196234602" />
-      <entry key="S5" value="1.5915055912618417" />
-      <entry key="S10" value="2.6190389707764377" />
-      <entry key="S30" value="4.834378920237949" />
-      <entry key="S60" value="7.006600459195295" />
-      <entry key="M2" value="9.89868369589297" />
-      <entry key="M5" value="16.631927432500728" />
-      <entry key="M10" value="26.634335956554686" />
-      <entry key="M15" value="36.813182048869535" />
-      <entry key="M30" value="76.26301249098901" />
-      <entry key="H1" value="151.69410389279363" />
-      <entry key="H2" value="234.79764928663454" />
-      <entry key="H4" value="298.11187399440263" />
-      <entry key="D1" value="367.05466315585676" />
-      <entry key="W1" value="380.6735430227866" />
+      <entry key="MS100" value="1.9288118006970735E-4" />
+      <entry key="MS500" value="0.18408146577599677" />
+      <entry key="S2" value="0.9186927122513061" />
+      <entry key="S5" value="1.9381333471579576" />
+      <entry key="S10" value="3.3508722773786617" />
+      <entry key="S30" value="5.751594876746299" />
+      <entry key="S60" value="6.81032208266078" />
+      <entry key="M2" value="8.483356097932033" />
+      <entry key="M5" value="15.294547898499708" />
+      <entry key="M10" value="23.53714067596079" />
+      <entry key="M15" value="28.63357301448665" />
+      <entry key="M30" value="36.19588190017363" />
+      <entry key="H1" value="41.48688511543183" />
+      <entry key="H2" value="50.13157029797132" />
+      <entry key="H4" value="97.73969618545706" />
+      <entry key="D1" value="386.1983098020517" />
+      <entry key="W1" value="516.7674610807962" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -122,6 +124,7 @@
     "Application.TesteCaminhao.executor": "Run",
     "Application.TesteEncomenda.executor": "Run",
     "Application.TesteMoto.executor": "Run",
+    "Application.TesteMotorista.executor": "Run",
     "Application.TesteVeiculo.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.MCP Project settings loaded": "true",
@@ -149,7 +152,15 @@
     "to.speed.mode.migration.done": "true"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.TesteMotorista">
+    <configuration name="TesteEncomenda" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="UNNAMED_CLASS_CONFIGURATION" value="true" />
+      <option name="MAIN_CLASS_NAME" value="TesteEncomenda" />
+      <module name="rotaFacil" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TesteMoto" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="UNNAMED_CLASS_CONFIGURATION" value="true" />
       <option name="MAIN_CLASS_NAME" value="TesteMoto" />
@@ -158,8 +169,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TesteMotorista" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="UNNAMED_CLASS_CONFIGURATION" value="true" />
+      <option name="MAIN_CLASS_NAME" value="TesteMotorista" />
+      <module name="rotaFacil" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TesteMotorista" />
+        <item itemvalue="Application.TesteEncomenda" />
         <item itemvalue="Application.TesteMoto" />
       </list>
     </recent_temporary>

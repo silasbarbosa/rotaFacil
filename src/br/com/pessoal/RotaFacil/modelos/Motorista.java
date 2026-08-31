@@ -6,6 +6,7 @@ public class Motorista {
     private String nome;
     private boolean cnhValida;
     private int anosDeExperiencia;
+    private boolean aptoDirigirVeiculo;
 
     public String getNome() {
         return nome;
@@ -28,36 +29,47 @@ public class Motorista {
         this.cnhValida = cnhValida;
     }
 
+    public boolean isCnhValida() {
+        return cnhValida;
+    }
+
     public boolean podeDirigir(Veiculo veiculo) {
-        if (veiculo.getCapacidadeCarga()>15){
-            if (this.anosDeExperiencia>=5){
-                cnhValida = true;
+        if(this.isCnhValida()==true){
+            if (veiculo.getCapacidadeCarga()>15){
+                if (this.anosDeExperiencia>=5){
+                    this.aptoDirigirVeiculo = true;
+                }
+                else {
+                    this.aptoDirigirVeiculo = false;
+                }
+
+            }
+            else if (veiculo.getCapacidadeCarga()>=5) {
+                if (this.anosDeExperiencia>=2){
+                    this.aptoDirigirVeiculo = true;
+                }
+                else {
+                    this.aptoDirigirVeiculo = false;
+                }
+
             }
             else {
-                cnhValida = false;
-            }
+                if (this.anosDeExperiencia>=2){
+                    this.aptoDirigirVeiculo = true;
+                }
+                else {
+                    this.aptoDirigirVeiculo = false;
+                }
 
+
+            }
         }
-        else if (veiculo.getCapacidadeCarga()>=5) {
-            if (this.anosDeExperiencia>=2){
-                cnhValida = true;
-            }
-            else {
-                cnhValida = false;
-            }
-
+        else{
+            this.aptoDirigirVeiculo = false;
         }
-        else {
-            if (this.anosDeExperiencia>=2){
-                cnhValida = true;
-            }
-            else {
-                cnhValida = false;
-            }
 
 
-        }
-        return this.cnhValida;
+        return this.aptoDirigirVeiculo;
     }
 
 }

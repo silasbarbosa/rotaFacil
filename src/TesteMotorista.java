@@ -8,6 +8,7 @@ void main() {
 
     motorista1.setNome("Motorista 1");
     motorista1.setAnosDeExperiencia(10);
+    motorista1.setCnhValida(false);
 
     caminhao5.setCapacidadeCarga(10);
 

@@ -1,8 +1,8 @@
 package br.com.pessoal.RotaFacil.modelos;
 
-import org.w3c.dom.ls.LSOutput;
+import br.com.pessoal.RotaFacil.calculos.PrioridadeEntrega;
 
-public class Caminhao extends Veiculo  implements PrioridadeEntrega{
+public class Caminhao extends Veiculo  implements PrioridadeEntrega {
     private int numeroDeEixos;
     private double cargaPorEixoToneladas;
     private int prioridade;

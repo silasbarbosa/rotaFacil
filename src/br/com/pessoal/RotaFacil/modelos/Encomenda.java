@@ -1,5 +1,7 @@
 package br.com.pessoal.RotaFacil.modelos;
 
+import br.com.pessoal.RotaFacil.calculos.PrioridadeEntrega;
+
 public class Encomenda implements PrioridadeEntrega {
     private String codigoRastreio;
     private double pesoKg;

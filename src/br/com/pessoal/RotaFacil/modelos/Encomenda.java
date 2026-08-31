@@ -1,8 +1,9 @@
 package br.com.pessoal.RotaFacil.modelos;
 
 import br.com.pessoal.RotaFacil.calculos.PrioridadeEntrega;
+import br.com.pessoal.RotaFacil.calculos.Rastreavel;
 
-public class Encomenda implements PrioridadeEntrega {
+public class Encomenda implements PrioridadeEntrega,  Rastreavel {
     private String codigoRastreio;
     private double pesoKg;
     private int totalTentativasEntrega;
@@ -50,4 +51,10 @@ public class Encomenda implements PrioridadeEntrega {
         }
         return prioridade;
     }
+    public String gerarCodigoRastreio(){
+        return gerarCodigoRastreio();
+    }
+
+
+
 }

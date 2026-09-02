@@ -1,4 +1,4 @@
-package br.com.pessoal.RotaFacil.calculos;
+/*package br.com.pessoal.RotaFacil.calculos;
 
 public class CentralLogistica {
 
@@ -7,4 +7,4 @@ public class CentralLogistica {
     public CalculadoraDeCapacidade{
 
     }
-}
+}*/
